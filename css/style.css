@@ -131,3 +131,469 @@ body {
     padding-bottom: 1em;
     border-bottom: 2px solid #088178;
 }
+.hero-unit{
+    background-image: url("../images/hero4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    width: 100%;
+
+    position: relative;
+}
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 80px;
+    transform: translateY(-50%);
+}
+
+.hero-text h1{
+    color: #088178;
+    font-size:55px;
+}
+
+.hero-text h2{
+    font-size: 55px;
+}
+
+.hero-text h4{
+    color: #fff;
+    font-size:35px;
+}
+
+.hero-text p{
+    margin: 15px 0;
+}
+.hero-text button{
+    background-image: url("../images/button.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 220px;
+    height: 60px;
+
+    border: none;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text button a{
+    text-decoration: none;
+    color: #088178;
+    font-size: 16px;
+    font-weight: 700;
+}
+.shop-btn{
+    background-image: url("../images/button.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 220px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    color: #088178;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 40px 80px;
+    gap: 20px;
+}
+
+.feature-box{
+    width: 180px;
+    text-align: center;
+
+    border: 1px solid #cce7d0;
+    border-radius: 8px;
+
+    padding: 25px 15px;
+    cursor: pointer;
+
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+
+    transition: 0.3s ease;
+}
+
+.feature-box:hover{
+    box-shadow: 10px 10px 54px rgba(70,62,221,0.1);
+}
+
+.feature-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.feature-box h6{
+    display: inline-block;
+
+    padding: 9px 8px 6px 8px;
+
+    border-radius: 4px;
+
+    background-color: #fddde4;
+    color: #088178;
+
+    font-size: 14px;
+}
+
+
+/* Featured Products */
+
+#product1{
+    text-align: center;
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des span{
+    color: #606063;
+    font-size: 12px;
+}
+
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+#product1 .pro .des i{
+    font-size: 12px;
+    color: rgb(243,181,25);
+}
+
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    color: #088178;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+/* Banner Section */
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../images/banner/b2.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4{
+    color: #fff;
+    font-size: 16px;
+}
+
+#banner h2{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#banner h2 span{
+    color: #ef3636;
+}
+
+#banner .normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+#banner .normal:hover{
+    background: #088178;
+    color: #fff;
+}
+/* ===== Banner Boxes ===== */
+
+#banner-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+
+/* Common Banner Style */
+
+#banner-boxes .banner{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+/* Top 2 Large Banners */
+
+#banner-boxes .big-banner{
+    width: 48%;
+    height: 50vh;
+}
+
+/* Bottom 3 Small Banners */
+
+#banner-boxes .small-banner{
+    width: 31%;
+    height: 30vh;
+}
+
+/* Background Images */
+
+.banner1{
+    background-image: url("../images/banner/b17.jpg");
+}
+
+.banner2{
+    background-image: url("../images/banner/b10.jpg");
+}
+
+.banner3{
+    background-image: url("../images/banner/b7.jpg");
+}
+
+.banner4{
+    background-image: url("../images/banner/b4.jpg");
+}
+
+.banner5{
+    background-image: url("../images/banner/b18.jpg");
+}
+
+/* Text Styling */
+
+#banner-boxes h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#banner-boxes h2{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#banner-boxes p{
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+#banner-boxes h3{
+    color: #ff4d4d;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Button */
+
+#banner-boxes button{
+    padding: 10px 18px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#banner-boxes button:hover{
+    background-color: #088178;
+    border-color: #088178;
+}
+/* ================= NEWSLETTER ================= */
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-image: url("img/banner/b14.png");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+
+    padding: 40px 80px;
+}
+
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0;
+}
+
+#newsletter p span{
+    color: #ffbd27;
+}
+
+#newsletter .form{
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 4px 0 0 4px;
+}
+
+#newsletter button{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+
+    border: none;
+    padding: 0 25px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+
+
+/* ================= FOOTER ================= */
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 40px 80px;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo{
+    margin-bottom: 30px;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+
+footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover{
+    color: #088178;
+}
