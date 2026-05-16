@@ -27,7 +27,7 @@ A modern and responsive fashion e-commerce website built using HTML5, CSS3, and 
 ## 📂 Folder Structure
 
 ```bash
-project-folder/
+cara-shopping-website/
 │
 ├── index.html
 ├── style.css
@@ -40,16 +40,20 @@ project-folder/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/Saddalayogesh/cara-shopping-website.git 
+git clone https://github.com/Saddalayogesh/cara-shopping-website.git
 ```
 
 2. Open the project folder
 
 ```bash
-cd your-repository-name
+cd cara-shopping-website
 ```
 
 3. Open `index.html` in your browser.
+
+## 🌐 Live Demo
+
+🚀 Live Website: https://saddalayogesh.github.io/cara-shopping-website/
 
 ## 🌟 Future Improvements
 
@@ -57,11 +61,13 @@ cd your-repository-name
 - Product Search and Filters
 - User Authentication
 - Backend Integration
-- Payment Gateway
+- Payment Gateway Integration
 
 ## 👨‍💻 Author
 
-Developed by Yogesh
+Developed by Saddala Yogesh
+
+- GitHub: https://github.com/Saddalayogesh
 
 ## 📄 License
 
