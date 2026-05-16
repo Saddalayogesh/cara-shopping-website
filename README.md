@@ -22,7 +22,7 @@ A modern and responsive fashion e-commerce website built using HTML5, CSS3, and 
 
 ## 📸 Project Preview
 
-![Project Screenshot](./1000215129.jpg)
+![Project Screenshot](./homepage-screen.jpeg )
 
 ## 📂 Folder Structure
 
