@@ -79,8 +79,6 @@ Open `index.html` in your browser.
 
 Developed by **Saddala Yogesh**
 
-🔗 GitHub: https://github.com/Saddalayogesh
-
 ---
 
 ## 📄 License
